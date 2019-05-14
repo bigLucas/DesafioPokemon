@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Desafio Pokémon</title>
+        <meta charset="UFT-8"/>
+        <meta name="description" content="Pesquise Pokémons por cidade decordo com o clima da cidade pesquisada">
+        <meta name="keywords" content="Pokémon">
+        <meta name="author" content="Lucas dos Santos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    </head>
+    <body>
+        <!--GRID 01-->
+        <div id="gridTeste" align="center">
+            <div id="div-login">
+                <h1>Pesquise uma cidade</h1>
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

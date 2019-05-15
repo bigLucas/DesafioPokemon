@@ -25,10 +25,15 @@ Então, para utilização da Aplicação é necessário executar as próximas et
 5 - Navegar via promt de comando (Bash) ou abrir o Bash na pasta /Desafio_Pokémon_V0/.
 
 6 - Via bash, dentro da pasta raiz da aplicação /Desafio_Pokémon_V0/, onde está localizado o arquivo manage.py, execute o comando:
+<p>---  python3 manage.py migrate, OU;</p>
+<p>---  py manage.py migrate, OU;</p>
+<p>---  python manage.py migrate</p>
+
+7 - Via bash, após a execução do migrate, podemos rodar o servidor, executando o comando runserver:
 <p>---  python3 manage.py runserver, OU;</p>
 <p>---  py manage.py runserver, OU;</p>
 <p>---  python manage.py runserver</p>
 
-7 - Após a execução desse comando, podemos acessar a aplicação em qualquer navagador através do endereço: 127.0.0.1:8000
+8 - Após a execução desse comando, podemos acessar a aplicação em qualquer navagador através do endereço: 127.0.0.1:8000
 
-8 - Agora basta digitar uma cidade e clicar em pesquisar para encontrar um Pokémon de acordo com a temperatura e o clima da cidade.
+9 - Agora basta digitar uma cidade e clicar em pesquisar para encontrar um Pokémon de acordo com a temperatura e o clima da cidade.

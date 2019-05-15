@@ -29,7 +29,7 @@ Então, para utilização da Aplicação é necessário executar as próximas et
 <p>---  py manage.py migrate, OU;</p>
 <p>---  python manage.py migrate</p>
 
-7 - Via bash, após a execução do migrate, podemos rodar o servidor, executando o comando runserver:
+7 - Via bash, após a execução do comando migrate, podemos rodar o servidor, executando o comando runserver:
 <p>---  python3 manage.py runserver, OU;</p>
 <p>---  py manage.py runserver, OU;</p>
 <p>---  python manage.py runserver</p>
